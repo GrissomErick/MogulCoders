@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://github.com/GrissomErick/MogalCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
 </div>
 
-<img src="https://github.com/GrissomErick/MogalCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/MogulCoders.png?raw=true" align="right"></img>
 
 # CritterSitter
 UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
@@ -21,11 +21,11 @@ To use CritterSitter web application application from your local environment, yo
 
 **Step 1 - Clone my repo using the command line below.**
 ```
-git clone https://github.com/GrissomErick/MogalCoders.git
+git clone https://github.com/GrissomErick/MogulCoders.git
 ```
 **Step 2 - Change directory to the cloned repo folder.**
 ```
-cd MogalCoders
+cd MogulCoders
 ```
 **Step 3 - Install all required NPM packages.**
 ```
@@ -62,4 +62,4 @@ node server.js
 
 ## Author
 
-* **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogalCoders Repo](https://github.com/GrissomErick/MogalCoders)
+* **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
