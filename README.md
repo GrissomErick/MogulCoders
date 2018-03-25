@@ -2,7 +2,7 @@
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
 </div>
 
-<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/MogulCoders.png?raw=true" align="right"></img>
+<img src="MogulCoders/images/mogulcoders.png?raw=true" align="right"></img>
 
 # CritterSitter
 UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
