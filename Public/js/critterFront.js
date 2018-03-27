@@ -1,11 +1,23 @@
-$("#search-sitters").on("click", (event) => {
+$("#search-btn").on("click", (event) => {
     event.preventDefault();
+
+    // Save the book they typed into the book-search input
+    const bookSearched = $("#book-search").val().trim();
+
+    // Make an AJAX get request to our api, including the user's book in the url
+    $.get("/api/" + bookSearched, data => {
+
+        console.log(data);
+        // Call our renderBooks function to add our books to the page
+        renderBooks(data);
+    });
+
 });
 
 function displaySitters(data) {
     if (data.length !== 0) {
-        $("#sitter-results").empty();
-        $("#sitter-results").show();
+        $("#stats").empty();
+        $("#stats").show();
   
         data.forEach((sitter, i) => {
             const div = $("<div>");
@@ -14,9 +26,9 @@ function displaySitters(data) {
             div.append(`<p>Sitter: ${sitter.author}</p>`);
             div.append(`<p>Email: ${sitter.genre}</p>`);
             div.append(`<p>Pages: ${sitter.pages}</p>`);
-            div.append(`<p>Information:${sitter.information}</p>`);
+            div.append(`<button class='delete' data-id="${sitter.id}">DELETE BOOK</button>`);
   
-            $("#sitter-results").append(div);
+            $("#stats").append(div);
         });
     }
-}  
+  }  

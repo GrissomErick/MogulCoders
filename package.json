@@ -1,0 +1,27 @@
+{
+  "name": "crittersitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DABAYO/CritterSitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DABAYO/CritterSitter/issues"
+  },
+  "homepage": "https://github.com/DABAYO/CritterSitter#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.2",
+    "sequelize": "^4.37.4"
+  }
+}

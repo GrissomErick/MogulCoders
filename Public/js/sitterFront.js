@@ -1,21 +1,21 @@
 // Code here handles what happens when a sitter submits their information on the form.
-// Takes the form inputs then sends it to the server to save in the DB.
+// Effectively it takes the form inputs then sends it to the server to save in the DB.
 
 // when user clicks add-btn
-$("#search-submit").on("click", function(event) {
+$("#sit-submit").on("click", function(event) {
     event.preventDefault();
-  
-    // add a new sitter based on sitter input from sitterSignUp.html
-    var newSitter = {
+    console.log("button clicked!!!!!!!!!!!!!!!!");
+
+    const newSitter = {
       first_name: $("#first_name").val().trim(),
       last_name: $("#last_name").val().trim(),
       email: $("#email").val().trim(),
       password: $("#password").val().trim(),
-      zip: $("zip").val().trim()
+      zip: $("#zip").val().trim()
     };
   
     // send an AJAX POST-request with jQuery
-    $.post("/api/new", newSitter)
+    $.post("/api/newsitter", newSitter)
       // on success, run this callback
       .then(function(data) {
         // log the data we found
@@ -24,13 +24,12 @@ $("#search-submit").on("click", function(event) {
         alert("You've been added to the list of available Critter Sitters. Thanks for joining!");
       });
   
-    // empty each input box by replacing the value with an empty string
+    // // empty each input box by replacing the value with an empty string
     $("#first_name").val("");
     $("#last_name").val("");
     $("#email").val("");
     $("#password").val("");
     $("#zip").val("");
-    // need to add code for sitter info text field
   
   });
   
