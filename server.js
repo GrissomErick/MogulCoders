@@ -6,8 +6,6 @@
     var env        = require('dotenv').load()
     var exphbs     = require('express-handlebars')
 
-
-
     //For BodyParser
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(bodyParser.json());
@@ -50,15 +48,7 @@
     console.log(err,"Something went wrong with the Database Update!")
     });
 
-
-
 	app.listen(5000, function(err){
 		if(!err)
 		console.log("CritterSitter is live"); else console.log(err)
-
 	});
-
-
-
-
-    
