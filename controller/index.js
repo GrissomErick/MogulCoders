@@ -1,7 +1,7 @@
 const express = require("express");
 
 const router = express.Router();
-// edit sitter model to match sequelize
+// edit burger model to match sequelize
 const db = require("../models/");
 
 
@@ -32,7 +32,7 @@ router.post("/api/newsitter", function (req, res) {
     console.log(req.body);
 
     db.Sitters.create(newSitter).then((data) => {
-        res.json("You've Been Added To The List of Sitters");
+        res.json("yo");
     })
 
 
@@ -40,38 +40,47 @@ router.post("/api/newsitter", function (req, res) {
 });
 
 // get route, edited to match sequelize
-router.get("/Sitters", function (req, res) {
+router.get("/burgers", function (req, res) {
     // replace old function with sequelize function
-    db.Sitters.findAll()
-        // use promise method to pass the sitters...
-        .then(function (dbSitter) {
-            console.log(dbSitter);
+    db.Burger.findAll()
+        // use promise method to pass the burgers...
+        .then(function (dbBurger) {
+            console.log(dbBurger);
             // into the main index, updating the page
             var hbsObject = {
-                Sitter: dbSitter
+                burger: dbBurger
             };
             return res.render("index", hbsObject);
         });
 });
 
-// // post route to create sitters
-// router.post("/sitters/create", function (req, res) {
-//     // hmmm...don't think this is needed
-//     db.Sitter.create({
-//             first_name: req.body.first_name,
-//             last_name: req.body.last_name,
-//             email: req.body.email,
-//             password: req.body.password,
-//             zip: req.body.zip
-//         })
-//         // pass the result of our call
-//         .then(function (dbSitter) {
-//             // log the result to our terminal/bash window
-//             console.log(dbSitter);
-//             // redirect
-//             res.redirect("/");
-//         });
-// });
+// post route to create burgers
+router.post("/burgers/create", function (req, res) {
+    // edited burger create to add in a burger_name
+    db.Burger.create({
+            burger_name: req.body.burger_name
+        })
+        // pass the result of our call
+        .then(function (dbBurger) {
+            // log the result to our terminal/bash window
+            console.log(dbBurger);
+            // redirect
+            res.redirect("/");
+        });
+});
 
+// put route to devour a burger
+router.put("/burgers/update/:id", function (req, res) {
+    // update one of the burgers
+    db.Burger.update({
+        devoured: true
+    }, {
+        where: {
+            id: req.params.id
+        }
+    }).then(function (dbBurger) {
+        res.json("/");
+    });
+});
 
 module.exports = router;
