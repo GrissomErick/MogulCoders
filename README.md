@@ -8,7 +8,9 @@
 UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
  <p></p>
  
-**Project Description** - CritterSitter is a full-stack web application that ??.
+**Project Description** - CritterSitter is a full-stack web application that helps:
+1. Find the Pet lovers to get the part time work and opportunity to be sitter with pets.
+2. Helps Pet owners to connect with Pet sitters when they need help.
 
 ## Application Heroku Link
 The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
@@ -63,3 +65,12 @@ node server.js
 ## Author
 
 * **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
+
+## Contributors
+1. Eric Grisson
+2. Richard Paez
+3. Deb Bayo
+4. Anna Pena
+5. Kamal Kishore
+
+
