@@ -17,19 +17,19 @@ module.exports = function(sequelize, Sequelize) {
 		},
 		handlesDogs : {
 			type: Sequelize.BOOLEAN,
-				defaultValue: false,
+			defaultValue: false,
 		},
 		handlesCats : {
 			type: Sequelize.BOOLEAN,
-				defaultValue: false,
+			defaultValue: false,
 		},
 		handlesBirds : {
 			type: Sequelize.BOOLEAN,
-				defaultValue: false,
+			defaultValue: false,
 		},
 		handlesReptiles : {
 			type: Sequelize.BOOLEAN,
-				defaultValue: false,
+			defaultValue: false,
 		},
 		email: {
 			type: Sequelize.STRING,
