@@ -38,13 +38,12 @@ node bamazonCustomer.js
 ## Application Readme Links
 Bamazon consists of three separate applications. Each of the three applications has it's own separate Readme file. To use particular  application simply click any of the links below and follow the instructions. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps for each seperate application Readme file.)
 
+* [Critter Sitter Main Readme]
+ (https://github.com/GrissomErick/Bamazon)
+* [Critter Sitter Application Readme](https://github.com/GrissomErick/Bamazon/blob/master/appdocs/Manager.md)
 
-* [Bamazon Manager App](https://github.com/GrissomErick/Bamazon/blob/master/appdocs/Manager.md)
-* [Bamazon Supervisor App](https://github.com/GrissomErick/Bamazon/blob/master/appdocs/Supervisor.md)
-* [Bamazon Main Readme](https://github.com/GrissomErick/Bamazon)
 
-
-## Built With
+## Tools used to built
 
 * VS Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
@@ -54,7 +53,7 @@ Bamazon consists of three separate applications. Each of the three applications 
 1. Email validation was itself a bigger piece to develop from scratch.  We found one npm package (https://www.npmjs.com/package/email-verification) but that supports MongoDB and our whole project was decided to built on MySql.  So later we decided to drop the email validation.
 2. When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
 3. Redfining the repo, photoshop work was done again, redesiging of web page and fillable forms. - (need reasoning language???)
-4. Filtering out the API (will write more about this)
+4. Filtering out the APIs (will write more about this)
 
 ## Author
 
