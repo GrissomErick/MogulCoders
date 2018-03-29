@@ -9,8 +9,9 @@ UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
  <p></p>
  
 **Project Description** - CritterSitter is a full-stack web application that helps:
-1. Find the Pet lovers to get the part time work and opportunity to be sitter with pets.
-2. Helps Pet owners to connect with Pet sitters when they need help.
+1. To find the Pet lovers to get the part time work as Pet Sitter.
+2. Pet owners to connect with Pet sitters who meets their critaria.
+3. Search on Map the Pet Sitters available around your location.
 
 ## Application Heroku Link
 The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
@@ -72,5 +73,3 @@ node server.js
 3. Deb Bayo
 4. Anna Pena
 5. Kamal Kishore
-
-
