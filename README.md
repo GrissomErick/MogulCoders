@@ -63,6 +63,11 @@ node server.js
 * Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
 * Live Markdown Editor - [https://jbt.github.io/markdown-editor/](https://jbt.github.io/markdown-editor/)
 
+## Challanges
+1. Email validation was itself a bigger piece to develop from scratch.  We found one npm package (https://www.npmjs.com/package/email-verification) but that supports MongoDB and our whole project was decided to built on MySql.  So later we decided to drop the email validation.
+2. When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
+3. 
+
 ## Author
 
 * **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
