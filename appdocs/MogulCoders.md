@@ -54,7 +54,7 @@ Bamazon consists of three separate applications. Each of the three applications 
 1. Email validation was itself a bigger piece to develop from scratch.  We found one npm package (https://www.npmjs.com/package/email-verification) but that supports MongoDB and our whole project was decided to built on MySql.  So later we decided to drop the email validation.
 2. When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
 3. Redfining the repo, photoshop work was done again, redesiging of web page and fillable forms. - (need reasoning language???)
-4. 
+4. Filtering out the API (will write more about this)
 
 ## Author
 
