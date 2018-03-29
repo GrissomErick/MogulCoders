@@ -1,54 +1,60 @@
-    var express    = require('express')
-    var app        = express()
-    var passport   = require('passport')
-    var session    = require('express-session')
-    var bodyParser = require('body-parser')
-    var env        = require('dotenv').load()
-    var exphbs     = require('express-handlebars')
+var express     = require('express')
+var app         = express()
+var passport    = require('passport')
+var session     = require('express-session')
+var bodyParser  = require('body-parser')
+var env         = require('dotenv').load()
+var exphbs      = require('express-handlebars')
 
-    //For BodyParser
-    app.use(bodyParser.urlencoded({ extended: true }));
-    app.use(bodyParser.json());
+//For BodyParser
+app.use( bodyParser.urlencoded( { extended: true } ) );
 
+app.use( bodyParser.json() );
 
-     // For Passport
-    app.use(session({ secret: 'keyboard cat',resave: true, saveUninitialized:true})); // session secret
-    app.use(passport.initialize());
-    app.use(passport.session()); // persistent login sessions
+// For Passport
+app.use(session(
+{
+    secret: 'keyboard cat',
+    resave: true,
+    saveUninitialized: true
+})); // session secret
+app.use(passport.initialize());
 
+app.use(passport.session()); // persistent login sessions
 
-     //For Handlebars
-    app.set('views', './app/views')
-    app.engine('hbs', exphbs({extname: '.hbs'}));
-    app.set('view engine', '.hbs');
-    
+//For Handlebars
+app.set('views', './app/views')
 
-    app.get('/', function(req, res){
-	  res.send('Welcome to Critter Sitter Home page');
-	});
+app.engine('hbs', exphbs({
+    extname: '.hbs'
+}));
 
+app.set('view engine', '.hbs');
 
-	//Models
-    var models = require("./app/models");
+app.get('/', function (req, res) {
+    res.send('Welcome to Critter Sitter Home page');
+});
 
+//Models
+var models = require("./app/models");
 
-    //Routes
-    var authRoute = require('./app/routes/auth.js')(app,passport);
+//Routes
+var authRoute = require('./app/routes/auth.js')(app, passport);
+var sitterRoute = require('./app/routes/sitters')(app);
 
+//load passport strategies
+require('./app/config/passport/passport.js')(passport, models.user);
 
-    //load passport strategies
-    require('./app/config/passport/passport.js')(passport,models.user);
-
-
-    //Sync Database
-   	models.sequelize.sync().then(function(){
+//Sync Database
+models.sequelize.sync().then(function () {
     console.log('Critter Sitter user database is connected!')
 
-    }).catch(function(err){
-    console.log(err,"Something went wrong with the Database Update!")
-    });
+}).catch(function (err) {
+    console.log(err, "Something went wrong with the Database Update!")
+});
 
-	app.listen(5000, function(err){
-		if(!err)
-		console.log("CritterSitter is live"); else console.log(err)
-	});
+app.listen(5000, function (err) {
+    if (!err)
+        console.log("CritterSitter is live");
+    else console.log(err)
+});

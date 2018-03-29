@@ -15,11 +15,21 @@ module.exports = function(sequelize, Sequelize) {
 			type: Sequelize.STRING,
 			notEmpty: true
 		},
-		username: {
-			type: Sequelize.TEXT 
+		handlesDogs : {
+			type: Sequelize.BOOLEAN,
+			defaultValue: false,
 		},
-		about: {
-			type: Sequelize.TEXT
+		handlesCats : {
+			type: Sequelize.BOOLEAN,
+			defaultValue: false,
+		},
+		handlesBirds : {
+			type: Sequelize.BOOLEAN,
+			defaultValue: false,
+		},
+		handlesReptiles : {
+			type: Sequelize.BOOLEAN,
+			defaultValue: false,
 		},
 		email: {
 			type: Sequelize.STRING,
@@ -28,9 +38,6 @@ module.exports = function(sequelize, Sequelize) {
 		password: {
 			type: Sequelize.STRING,
 			allowNull: false 
-		}, 
-		last_login: {
-			type: Sequelize.DATE
 		},
 		isSitter: {
 			type: Sequelize.BOOLEAN,
