@@ -1,6 +1,8 @@
-<p align="center">
-<img src="https://github.com/GrissomErick/Bamazon/blob/master/images/bamazonCustomer.png?raw=true" alt="Project logo"></img>
-</p>
+<<div align="center">
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
+</div>
+
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
 
 
 # Bamazon Customer Application
