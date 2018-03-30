@@ -1,11 +1,12 @@
-<<div align="center">
+<div align="right">
+[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
+</div>
+
+<div align="center">
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
 </div>
 
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
-
-## [Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md)to read Project Requirements
-<h1></h1>
 
 # Critter Sitter Web Application
  UNC Coding Boot Camp - Critter Sitter - Project 2
