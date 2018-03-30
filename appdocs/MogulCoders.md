@@ -38,12 +38,11 @@ node bamazonCustomer.js
 ## Application Readme Links
 Bamazon consists of three separate applications. Each of the three applications has it's own separate Readme file. To use particular  application simply click any of the links below and follow the instructions. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps for each seperate application Readme file.)
 
-* [Critter Sitter Main Readme]
- (https://github.com/GrissomErick/Bamazon)
-* [Critter Sitter Application Readme](https://github.com/GrissomErick/Bamazon/blob/master/appdocs/Manager.md)
+* [Critter Sitter Users' Readme](https://github.com/GrissomErick/MogulCoders/blob/master/README.md)
+* [Critter Sitter Application Readme](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/MogulCoders.md)
 
 
-## Tools used to built
+## Tools Used to Built
 
 * VS Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
