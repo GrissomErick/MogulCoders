@@ -5,15 +5,14 @@
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
 
 
-# Bamazon Customer Application
+# Critter Sitter Web Application
  UNC Coding Boot Camp - Critter Sitter - Project 2
  <p></p>
  
 # Project Requirements are
-
 The base requirements for Project 2 are the following:
 
-### Must:
+### _Must_:
 * Use a Node and Express Web Server.
 * Be backed by a MySQL Database an ORM (not necessarily Sequelize)
 * Have both GET and POST routes for retrieving and adding new data.
