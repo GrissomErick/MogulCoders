@@ -1,0 +1,16 @@
+.card {
+  position:relative;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  min-width:0;
+  word-wrap:break-word;
+  background-color:#fff;
+  background-clip:border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-color:#6b9839;
+  border-width:2px;
+  border-radius:10px;
+  box-shadow:0 3px 6px 0 rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+
