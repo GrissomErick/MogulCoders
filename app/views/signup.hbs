@@ -26,7 +26,7 @@
     </div>
     <div>
         <div class="container">
-            <div class="row" style="margin-bottom:10px;margin-top:10px;">
+            <div class="row-signup" style="margin-bottom:10px;margin-top:10px;">
                 <div class="card">
                     <div class="card-header" style="  background-color:rgba(8,74,57,0.88);  border-radius:8px 8px 0 0;  margin-left:0px;  margin-bottom:-8px;">
                         <h5 class="mb-0" style="  color:rgb(254,255,255);  text-shadow:2px 2px 4px #000000;">Owner/Sitter Signup</h5>
@@ -34,21 +34,21 @@
                     <div class="card-body" style="  padding-top:5px;  padding-bottom:5px;  padding-left:5px;  padding-right:5px;">
                         <div>
                             <div class="container-fluid">
-                                <form action="javascript:void(0);" method="get" id="contactForm" style="  margin-right:-3px;">
+                                <form action="javascript:void(0);" method="post" id="signup" name="signup" action="/signup" style="margin-right:-3px;">
                                     <div class="form-row">
                                         <div class="col-md-6">
                                             <div id="successfail"></div>
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="col-12 col-md-6" id="message" style="  padding-left:2px;  padding-right:9px;">
+                                        <div class="col-12 col-md-12" id="message" style="  padding-left:2px;  padding-right:9px;">
                                             <h2 class="h4" style="  padding-left:0px;  margin-left:-6px;  margin-bottom:2px;">
                                                 <small>
                                                     <small class="required-input">(*Required Field)</small>
                                                 </small>
                                             </h2>
-                                            <div class="form-group" style="  margin-bottom:5px;">
-                                                <label for="from-name" style="  margin-bottom:2px;">Name</label>
+                                            <div class="form-group" style="margin-bottom:5px;">
+                                                <label for="firstname" style="margin-bottom:2px;">First Name</label>
                                                 <span class="required-input">*</span>
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
@@ -56,12 +56,51 @@
                                                             <i class="fa fa-user-o"></i>
                                                         </span>
                                                     </div>
-                                                    <input type="text" name="name" required placeholder="First Name Last Name"
+                                                    <input type="text" name="firstname" required placeholder="First Name"
                                                         class="form-control" id="from-name" />
                                                 </div>
                                             </div>
-                                            <div class="form-group" style="  margin-bottom:5px;">
-                                                <label for="from-email" style="  margin-bottom:2px;">Address</label>
+                                            <div class="form-group" style="margin-bottom:5px;">
+                                                <label for="lastname" style="margin-bottom:2px;">Last Name</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-user-o"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="name" required placeholder="Last Name"
+                                                        class="form-control" id="lastname" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="  margin-bottom:2px;">
+                                                <label for="from-email" style="  margin-bottom:2px;">Email</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-map-marker"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="email" required placeholder="Email Address"
+                                                        class="form-control" id="from-email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="margin-bottom:2px;">
+                                                <label for="password" style="margin-bottom:2px;">Password</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-key"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="password" name="password" required placeholder="Password"
+                                                        class="form-control" id="from-email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="margin-bottom:5px;">
+                                                <label for="from-email" style="margin-bottom:2px;">Address</label>
                                                 <span class="required-input">*</span>
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
@@ -73,119 +112,19 @@
                                                         id="from-email" />
                                                 </div>
                                             </div>
-                                            <div class="form-row" style="  margin-bottom:-7px;">
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-phone" style="  margin-bottom:2px;">City</label>
-                                                        <span class="required-input">*</span>
+                                              <div class="form-group">
+                                                    <label for="from-calltime" style="  margin-bottom:2px;">Owner or Sitter*</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"></div>
                                                         <div class="input-group">
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text">
-                                                                    <i class="fa fa-phone"></i>
+                                                                    <i class="fa fa-user"></i>
                                                                 </span>
                                                             </div>
-                                                            <input type="text" name="phone" required placeholder="City" class="form-control"
-                                                                id="from-phone" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-calltime" style="  margin-bottom:2px;">State*</label>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend"></div>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text">
-                                                                        <i class="fa fa-phone"></i>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="text" name="phone" required placeholder="State"
-                                                                    class="form-control" id="from-phone" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-row" style="  margin-bottom:-7px;">
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-phone" style="  margin-bottom:2px;">Zip Code</label>
-                                                        <span class="required-input">*</span>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text">
-                                                                    <i class="fa fa-phone"></i>
-                                                                </span>
-                                                            </div>
-                                                            <input type="text" name="phone" required placeholder="Zip Code"
-                                                                class="form-control" id="from-phone" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-calltime" style="  margin-bottom:2px;">Owner or Sitter*</label>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend"></div>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text">
-                                                                        <i class="fa fa-phone"></i>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="text" name="phone" required placeholder="Owner or Sitter"
-                                                                    class="form-control" id="from-phone" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group" style="  margin-bottom:2px;">
-                                                <label for="from-email" style="  margin-bottom:2px;">Email</label>
-                                                <span class="required-input">*</span>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text">
-                                                            <i class="fa fa-envelope-o"></i>
-                                                        </span>
-                                                    </div>
-                                                    <input type="text" name="email" required placeholder="Email Address"
-                                                        class="form-control" id="from-email" />
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-phone" style="  margin-bottom:2px;">Phone</label>
-                                                        <span class="required-input">*</span>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text">
-                                                                    <i class="fa fa-phone"></i>
-                                                                </span>
-                                                            </div>
-                                                            <input type="text" name="phone" required placeholder="Primary Phone"
-                                                                class="form-control" id="from-phone" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="from-calltime" style="  margin-bottom:2px;">Type of Pet</label>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text">
-                                                                    <i class="fa fa-clock-o"></i>
-                                                                </span>
-                                                            </div>
-                                                            <select name="call time" class="form-control" id="from-calltime">
-                                                                <optgroup label="Your pets category">
-                                                                    <option value selected></option>
-                                                                    <option value="Dog" selected>Dog</option>
-                                                                    <option value="Cat">Cat</option>
-                                                                    <option value="Fish">Fish</option>
-                                                                </optgroup>
+                                                            <select id="isSitter" name="isSitter" class="form-control">
+                                                              <option value="false">Owner</option>
+                                                              <option value="true">Sitter</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -233,6 +172,7 @@
                     </div>
                 </div>
             </div>
+            <!--
 <p></p>
 <p></p>
 <p></p>
@@ -250,7 +190,7 @@
                 <label for="password">Password</label>
                 <input name="password" type="password" />
                 <input class="btn" type="submit" value="Sign Up" />
-            </form>
+            </form> -->
             <script src="js/jquery.min.js"></script>
             <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
