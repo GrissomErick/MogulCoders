@@ -53,10 +53,16 @@
       {
         var userPassword = generateHash(password);
         var data =
-        { email:email,
-        password:userPassword,
-        firstname: req.body.firstname,
-        lastname: req.body.lastname
+        { 
+          email: email,
+          password: userPassword,
+          firstname: req.body.firstname,
+          lastname: req.body.lastname,
+          handlesDogs: req.body.handlesDogs,
+          handlesCats: req.body.handlesCats,
+          handlesBirds: req.body.handlesBirds,
+          handlesReptiles: req.body.handlesReptiles,
+          isSitter: req.body.isSitter
         };
 
 
