@@ -1,21 +1,253 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-</head>
-<body>
-<form id="signup" name="signup" method="post" action="/signup">
-  <label for="email">Email Address</label>
-  <input class="text" name="email" type="email" />
-  <label for="firstname">Firstname</label>
-  <input name="firstname" type="text" />
-  <label for="lastname">Lastname</label>
-  <input name="lastname" type="text" />
-  <label for="password">Password</label>
-  <input name="password" type="password" />
-  <input class="btn" type="submit" value="Sign Up" />
-</form>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner/Sitter Signup</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/CS-Panel.css">
+    <link rel="stylesheet" href="css/Ericks-Test.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color:rgba(12,81,60,0.64);">
+    <div>
+        <div class="container">
+            <div class="row" style="margin-bottom:10px;margin-top:10px;">
+                <div class="col">
+                    <div class="card" style="width:519px;display:block;margin-left:auto;margin-right:auto;">
+                        <div class="card-body" style="padding:0;padding-top:0px;">
+                            <img src="img/cs_banner.png" style="background-image:url(&quot;Critter-Sitter-(5)-No-Shadow.png&quot;);height:177px;width:515px;border:0px solid rgba(0,0,0,.125);border-radius:19px;padding-top:0px;margin-bottom:0px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="margin-bottom:10px;margin-top:10px;">
+                <div class="card">
+                    <div class="card-header" style="  background-color:rgba(8,74,57,0.88);  border-radius:8px 8px 0 0;  margin-left:0px;  margin-bottom:-8px;">
+                        <h5 class="mb-0" style="  color:rgb(254,255,255);  text-shadow:2px 2px 4px #000000;">Owner/Sitter Signup</h5>
+                    </div>
+                    <div class="card-body" style="  padding-top:5px;  padding-bottom:5px;  padding-left:5px;  padding-right:5px;">
+                        <div>
+                            <div class="container-fluid">
+                                <form action="javascript:void(0);" method="get" id="contactForm" style="  margin-right:-3px;">
+                                    <div class="form-row">
+                                        <div class="col-md-6">
+                                            <div id="successfail"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-6" id="message" style="  padding-left:2px;  padding-right:9px;">
+                                            <h2 class="h4" style="  padding-left:0px;  margin-left:-6px;  margin-bottom:2px;">
+                                                <small>
+                                                    <small class="required-input">(*Required Field)</small>
+                                                </small>
+                                            </h2>
+                                            <div class="form-group" style="  margin-bottom:5px;">
+                                                <label for="from-name" style="  margin-bottom:2px;">Name</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-user-o"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="name" required placeholder="First Name Last Name"
+                                                        class="form-control" id="from-name" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="  margin-bottom:5px;">
+                                                <label for="from-email" style="  margin-bottom:2px;">Address</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-envelope-o"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="email" required placeholder="Address" class="form-control"
+                                                        id="from-email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row" style="  margin-bottom:-7px;">
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-phone" style="  margin-bottom:2px;">City</label>
+                                                        <span class="required-input">*</span>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-phone"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input type="text" name="phone" required placeholder="City" class="form-control"
+                                                                id="from-phone" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-calltime" style="  margin-bottom:2px;">State*</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend"></div>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <i class="fa fa-phone"></i>
+                                                                    </span>
+                                                                </div>
+                                                                <input type="text" name="phone" required placeholder="State"
+                                                                    class="form-control" id="from-phone" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row" style="  margin-bottom:-7px;">
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-phone" style="  margin-bottom:2px;">Zip Code</label>
+                                                        <span class="required-input">*</span>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-phone"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input type="text" name="phone" required placeholder="Zip Code"
+                                                                class="form-control" id="from-phone" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-calltime" style="  margin-bottom:2px;">Owner or Sitter*</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend"></div>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">
+                                                                        <i class="fa fa-phone"></i>
+                                                                    </span>
+                                                                </div>
+                                                                <input type="text" name="phone" required placeholder="Owner or Sitter"
+                                                                    class="form-control" id="from-phone" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="  margin-bottom:2px;">
+                                                <label for="from-email" style="  margin-bottom:2px;">Email</label>
+                                                <span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-envelope-o"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="email" required placeholder="Email Address"
+                                                        class="form-control" id="from-email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-phone" style="  margin-bottom:2px;">Phone</label>
+                                                        <span class="required-input">*</span>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-phone"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input type="text" name="phone" required placeholder="Primary Phone"
+                                                                class="form-control" id="from-phone" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="from-calltime" style="  margin-bottom:2px;">Type of Pet</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-clock-o"></i>
+                                                                </span>
+                                                            </div>
+                                                            <select name="call time" class="form-control" id="from-calltime">
+                                                                <optgroup label="Your pets category">
+                                                                    <option value selected></option>
+                                                                    <option value="Dog" selected>Dog</option>
+                                                                    <option value="Cat">Cat</option>
+                                                                    <option value="Fish">Fish</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <button class="btn btn-primary btn-block" type="reset" style="  background-color:rgba(8,74,57,0.88);  margin-left:-1px;">
+                                                            <i class="fa fa-undo"></i>Reset</button>
+                                                    </div>
+                                                    <div class="col">
+                                                        <button class="btn btn-primary btn-block" type="submit" value="Sign Up" style="  background-color:rgba(8,74,57,0.88);">Submit
+                                                            <i class="fa fa-chevron-circle-right"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr class="d-flex d-md-none" />
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-row" style="  padding-top:14px;">
+                                                <div class="col-12">
+                                                    <div class="static-map">
+                                                        <img src="img/bunnydog.jpg" style="  background-image:url(&quot;  bunnydog.jpg&quot;);width:100%;  padding-top:-3px;  height:100%;" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <hr class="d-sm-none d-md-block d-lg-none" />
+                                                </div>
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <div></div>
+                                                    <hr class="d-sm-none" />
+                                                </div>
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <div></div>
+                                                    <hr class="d-sm-none" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form id="signup" name="signup" method="post" action="/signup">
+                <label for="email">Email Address</label>
+                <input class="text" name="email" type="email" />
+                <label for="firstname">Firstname</label>
+                <input name="firstname" type="text" />
+                <label for="lastname">Lastname</label>
+                <input name="lastname" type="text" />
+                <label for="password">Password</label>
+                <input name="password" type="password" />
+                <input class="btn" type="submit" value="Sign Up" />
+            </form>
+            <script src="js/jquery.min.js"></script>
+            <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
