@@ -62,7 +62,7 @@ Bamazon consists of three separate applications. Each of the three applications 
 * **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
 
 ## Contributors
-1. Eric Grisson   (https://github.com/GrissomErick)
+1. Eric Grissom   (https://github.com/GrissomErick)
 2. Richard Paez   (https://github.com/RPaez09)
 3. Deb Bayo       (https://github.com/DABAYO)
 4. Anna Pena      (https://github.com/apena21)
