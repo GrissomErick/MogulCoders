@@ -1,4 +1,4 @@
-##[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
+[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
 
 <div align="center">
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
