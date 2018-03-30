@@ -1,15 +1,12 @@
-var db = require("../models");
-var user = db.user;
+var sitterController = require('../controllers/sitterController');
 
-module.exports = function(app){
-    app.get('/sitters', function(req, res) {
-        user.findAll( 
-            {
-                attributes: ['id','firstname','lastname','handlesDogs','handlesCats','handlesBirds','handlesReptiles','email'],
-                where: { isSitter: true } 
-            })
-            .then(function(results){
-                res.json(results);
-            });
-    });
+module.exports = function(app, passport){
+    app.get('/sitters', isLoggedIn , sitterController.getAllSitters );
 };
+
+function isLoggedIn(req, res, next) {
+    if (req.isAuthenticated())
+        return next();
+
+    res.status(403).send( { success: false, msg: 'Unauthorized' } );
+}
