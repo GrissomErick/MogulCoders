@@ -4,7 +4,7 @@
 
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
 
-## *[Project Requirements](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md)
+## [Click here] to read Project Requirements(https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md)
 
 # Critter Sitter Web Application
  UNC Coding Boot Camp - Critter Sitter - Project 2
