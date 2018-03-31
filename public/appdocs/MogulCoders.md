@@ -37,6 +37,9 @@ node bamazonCustomer.js
 **Step 3 - Test tree.**
 ```
 |-root
+│   package.json
+│   README.md
+│   server.js
 ├───app
 │   ├───config
 │   │   └───passport
