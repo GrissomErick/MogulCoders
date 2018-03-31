@@ -22,6 +22,11 @@ The link below will give you direct access to CritterSitter web application usin
 <!-- Heroku References: https://evening-ridge-94356.herokuapp.com/ | https://git.heroku.com/evening-ridge-94356.git -->
 * [CritterSitter](http://www.google.com/)
 
+## Team Readme Link
+The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+
+* [Mogul Coder Team Readme](https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md)
+
 ## Local Environment Setup
 To use CritterSitter web application application from your local environment, you must accomplish the following steps below:
 
