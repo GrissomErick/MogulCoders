@@ -23,7 +23,7 @@ The link below will give you direct access to CritterSitter web application usin
 * [CritterSitter](http://www.google.com/)
 
 ## Team Readme Link
-The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+In addition to the Project Readme we have also included a Team Readme that provides the technical details about the project.
 
 * [Mogul Coder Team Readme](https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md)
 
