@@ -2,7 +2,7 @@
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"></img>
 <p></p>
 
-# Mogul Coders Team Readme
+# Team 6 - Mogul Coders - Team Readme
  UNC Coding Boot Camp - Critter Sitter - Project 2
  <p></p>
  
@@ -70,7 +70,6 @@ To use Bamazon customer application you must accomplish the following steps belo
 * Adobe Photoshop - [https://www.adobe.com/products/photoshop.html](https://www.adobe.com/products/photoshop.html)
 * Adobe Illustrator - [https://www.adobe.com/products/illustrator.html](https://www.adobe.com/products/illustrator.html)
 
-https://www.adobe.com/products/photoshop.html
 ## Team Member Repo's
 1. Anna Pena      (https://github.com/apena21)
 2. Richard Paez   (https://github.com/RPaez09)
