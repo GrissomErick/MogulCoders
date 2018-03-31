@@ -48,7 +48,7 @@ require('./app/config/passport/passport.js')(passport, models.user);
 
 //Sync Database
 models.sequelize.sync().then(function () {
-    console.log('Critter Sitter user database is connected!')
+    console.log('CritterSitter user database is connected!')
 
 }).catch(function (err) {
     console.log(err, "Something went wrong with the Database Update!")
