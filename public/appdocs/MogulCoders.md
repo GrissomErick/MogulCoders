@@ -37,9 +37,9 @@ node bamazonCustomer.js
 **Step 3 - Project Folder Structure**
 ```
 |-root
-│   package.json
-│   README.md
 │   server.js
+│   README.md
+│   package.json
 ├───app
 │   ├───config
 │   │   └───passport
