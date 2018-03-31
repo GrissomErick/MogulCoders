@@ -1,6 +1,7 @@
 <p align="center">
-<img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"></img>
-<p></p>
+ <a href="https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md" target="_blank"><img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"/></a>
+</p>
+
 
 # Mogul Coders (Team 6) - Team Readme
  UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
