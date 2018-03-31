@@ -43,19 +43,34 @@ To use Bamazon customer application you must accomplish the following steps belo
     ├───img
     └───js
 ```
-## Application Readme Links
-Bamazon consists of three separate applications. Each of the three applications has it's own separate Readme file. To use particular  application simply click any of the links below and follow the instructions. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps for each seperate application Readme file.)
+#
+## Technology used
+- node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
+- heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
+- body-parser NPM Package - [https://www.npmjs.com/package/body-parser](https://www.npmjs.com/package/body-parser)
+- express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
+- path NPM Package - [https://www.npmjs.com/package/path](https://www.npmjs.com/package/path)
 
-* [Critter Sitter Users' Readme](https://github.com/GrissomErick/MogulCoders/blob/master/README.md)
-* [Critter Sitter Application Readme](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/MogulCoders.md)
+<!--
+- node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
+- mysql NPM Package - [https://www.npmjs.com/package/mysql](https://www.npmjs.com/package/mysql)
+- inquirer NPM Package - [https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)
+- cli-table NPM Package - [https://www.npmjs.com/package/cli-table](https://www.npmjs.com/package/cli-table)
+- heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
+- express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
+- path - [https://www.npmjs.com/package/path](https://www.npmjs.com/package/path)
+- body-parser NPM Package - [https://www.npmjs.com/package/body-parser](https://www.npmjs.com/package/body-parser)
+-->
 
-
-## Tools Used to Built
+## Built With
 
 * VS Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
 * Live Markdown Editor - [https://jbt.github.io/markdown-editor/](https://jbt.github.io/markdown-editor/)
+* Adobe Photoshop - [https://www.adobe.com/products/photoshop.html](https://www.adobe.com/products/photoshop.html)
+* Adobe Illustrator - [https://www.adobe.com/products/illustrator.html](https://www.adobe.com/products/illustrator.html)
 
+https://www.adobe.com/products/photoshop.html
 ## Team Member Repo's
 1. Anna Pena      (https://github.com/apena21)
 2. Richard Paez   (https://github.com/RPaez09)
