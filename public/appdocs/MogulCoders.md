@@ -34,6 +34,27 @@ To use Bamazon customer application you must accomplish the following steps belo
 ```
 node bamazonCustomer.js
 ```
+**Step 3 - Test tree.**
+```
+|-root
+├───app
+│   ├───config
+│   │   └───passport
+│   ├───controllers
+│   ├───db
+│   ├───models
+│   ├───routes
+│   └───views
+└───public
+    ├───appdocs
+    ├───bootstrap
+    │   ├───css
+    │   └───js
+    ├───css
+    ├───fonts
+    ├───img
+    └───js
+```
 ## Application Readme Links
 Bamazon consists of three separate applications. Each of the three applications has it's own separate Readme file. To use particular  application simply click any of the links below and follow the instructions. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps for each seperate application Readme file.)
 
