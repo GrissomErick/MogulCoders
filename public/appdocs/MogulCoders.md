@@ -3,7 +3,7 @@
 <p></p>
 
 # Mogul Coders (Team 6) - Team Readme
- UNC Coding Boot Camp - Critter Sitter - Project 2
+ UUNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
  <p></p>
 The Bamazon customer version of the program displays the terminal storefront and allows the user can purchase storefront items, display total(s) based upon quantity ordered. The customer application will also decrease store inventory based upon each customer purchase.
 
