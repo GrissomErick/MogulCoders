@@ -19,16 +19,6 @@ The Bamazon customer version of the program displays the terminal storefront and
 ## Getting Started
 To use Bamazon customer application you must accomplish the following steps below. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps below.):
 
-**Step 1 - Edit the javascript MySQL information.**
-```
-1. open "bamazonCustomer.js" in your script editor
-2. edit lines 14 - 17 with your database connectivity information
-(Note: pay close attention to line 17, your MySQL database password)
-```
-**Step 2 - Begin the application using the following command line.**
-```
-node bamazonCustomer.js
-```
 **Step 3 - Project Folder Structure**
 ```
 |-root
