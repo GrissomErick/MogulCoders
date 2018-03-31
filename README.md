@@ -7,7 +7,7 @@
 align="right"/></a>
 
 # CritterSitter
-UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
+UNC Coding Boot Camp - CritterSitter - Project #02 (Node, Express, Handlebars)
  <p></p>
  <p></p>
  
