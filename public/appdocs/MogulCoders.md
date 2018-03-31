@@ -10,10 +10,6 @@
 
 The Bamazon customer version of the program displays the terminal storefront and allows the user can purchase storefront items, display total(s) based upon quantity ordered. The customer application will also decrease store inventory based upon each customer purchase.
 
-## Customer Application Screen Capture
-<img src="https://github.com/GrissomErick/Bamazon/blob/master/images/BamazonCustomer.gif?raw=true" alt="Customer App GIF"></img>
-</p>
-
 ## Direct Screen Capture GIF Links
 The homework submission guide outlines animated screenshots or video is required to submit this homework assignment. I have included direct links below and embedded GIF images within the individual application Readme files.
 
@@ -76,10 +72,6 @@ Bamazon consists of three separate applications. Each of the three applications 
 2. When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
 3. Redefining the repo, photoshop work was done again, redesigning of web page and fillable forms. - (need reasoning language???)
 4. Filtering out the APIs (will write more about this)
-
-## Author
-
-* **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
 
 ## Team Member Repo's
 1. Anna Pena      (https://github.com/apena21)
