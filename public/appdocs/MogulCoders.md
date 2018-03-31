@@ -2,7 +2,7 @@
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"></img>
 <p></p>
 
-# Team 6 - Mogul Coders - Team Readme
+# Mogul Coders (Team 6) - Team Readme
  UNC Coding Boot Camp - Critter Sitter - Project 2
  <p></p>
  
