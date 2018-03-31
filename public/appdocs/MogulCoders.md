@@ -34,7 +34,7 @@ To use Bamazon customer application you must accomplish the following steps belo
 ```
 node bamazonCustomer.js
 ```
-**Step 3 - Test tree.**
+**Step 3 - Project Folder Structure**
 ```
 |-root
 │   package.json
