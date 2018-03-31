@@ -16,10 +16,8 @@ The Bamazon customer version of the program displays the terminal storefront and
 3. Redefining the repo, photoshop work was done again, redesigning of web page and fillable forms. - (need reasoning language???)
 4. Filtering out the APIs (will write more about this)
 
-## Getting Started
-To use Bamazon customer application you must accomplish the following steps below. (NOTE: Ensure you have completed ["Initial Enviroment Setup"](https://github.com/GrissomErick/Bamazon#initial-environment-setup) steps first, BEFORE you complete the "Getting Started" steps below.):
-
-**Step 3 - Project Folder Structure**
+## Project Folder Structure
+Write some text about folder structure:
 ```
 |-root
 │   server.js
