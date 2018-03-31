@@ -5,16 +5,13 @@
 # Mogul Coders (Team 6) - Team Readme
  UNC Coding Boot Camp - Critter Sitter - Project 2
  <p></p>
- 
-
-
 The Bamazon customer version of the program displays the terminal storefront and allows the user can purchase storefront items, display total(s) based upon quantity ordered. The customer application will also decrease store inventory based upon each customer purchase.
 
 ## Challenges
-1. Email validation was itself a bigger piece to develop from scratch.  We found one npm package (https://www.npmjs.com/package/email-verification) but that supports MongoDB and our whole project was designed to build on MySql.  So later we decided to drop the email validation.
-2. When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
-3. Redefining the repo, photoshop work was done again, redesigning of web page and fillable forms. - (need reasoning language???)
-4. Filtering out the APIs (will write more about this)
+* Email validation was itself a bigger piece to develop from scratch.  We found one npm package (https://www.npmjs.com/package/email-verification) but that supports MongoDB and our whole project was designed to build on MySql.  So later we decided to drop the email validation.
+* When Front end and Back end developers were working on their parts, it was not clear if the application is functioning and responding properly.
+* Redefining the repo, photoshop work was done again, redesigning of web page and fillable forms. - (need reasoning language???)
+* Filtering out the APIs (will write more about this)
 
 ## Folder Structure
 Write some text about folder structure:
