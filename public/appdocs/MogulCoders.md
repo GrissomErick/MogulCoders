@@ -14,7 +14,7 @@ The Bamazon customer version of the program displays the terminal storefront and
 * Filtering out the APIs (will write more about this)
 
 ## Folder Structure
-Write some text about folder structure:
+Project does meet MVC folder paradigm requirement:
 ```
 |-root
 │   server.js
