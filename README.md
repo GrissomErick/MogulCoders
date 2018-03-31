@@ -1,8 +1,9 @@
-<div align="center">
-<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/crittersitter.png?raw=true" alt="Project logo"></img>
-</div>
 
-<img src="https://github.com/GrissomErick/MogulCoders/blob/master/images/mogulcoders.png?raw=true" align="right"></img>
+<p align="center">
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/crittersitter.png?raw=true" alt="Project logo"></img>
+<p></p>
+
+<img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders.png?raw=true" align="right"></img>
 
 # CritterSitter
 UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
