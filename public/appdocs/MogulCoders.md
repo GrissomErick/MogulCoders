@@ -66,10 +66,10 @@ Project does meet MVC folder paradigm requirement:
 * Adobe Illustrator - [https://www.adobe.com/products/illustrator.html](https://www.adobe.com/products/illustrator.html)
 
 ## Team Member Repo's
-* Anna Pena      (https://github.com/apena21)
+* Anna Pena (Team Lead) (https://github.com/apena21)
 * Richard Paez   (https://github.com/RPaez09)
 * Deb Bayo       (https://github.com/DABAYO)
 * Kamal Kishore  (https://github.com/kkishore219)
 * Erick Grissom   (https://github.com/GrissomErick)
 
-[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
+<!-- [Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements -->
