@@ -2,7 +2,7 @@
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"></img>
 <p></p>
 
-# Critter Sitter Web Application
+# Critter Sitter Team Readme
  UNC Coding Boot Camp - Critter Sitter - Project 2
  <p></p>
  
