@@ -16,13 +16,13 @@ UNC Coding Boot Camp - CritterSitters - Project #02 (Node, Express, Handlebars)
 * Pet owners to connect with Pet sitters who meets their critaria.
 * Search and view the Pet Sitters available nearby your location.
 
-## Application Heroku Link
+## Application running on Heroku
 The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
 
 <!-- Heroku References: https://evening-ridge-94356.herokuapp.com/ | https://git.heroku.com/evening-ridge-94356.git -->
 * [CritterSitter](http://www.google.com/)
 
-## Team Readme Link
+## Team Readme
 In addition to the Project Readme we have also included a Team Readme that provides technical details about the project.
 
 * [Mogul Coder Team Readme](https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md)
