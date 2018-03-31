@@ -1,6 +1,6 @@
 
 <p align="center">
- <a href="https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md" target="_blank"><img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/crittersitter.png?raw=true" alt="Project logo"/></a>
+ <a href="https://github.com/GrissomErick/MogulCoders" target="_blank"><img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/crittersitter.png?raw=true" alt="Project logo"/></a>
 </p>
 
 <a href="https://github.com/GrissomErick/MogulCoders/blob/master/public/appdocs/MogulCoders.md" target="_blank"><img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders.png" 
