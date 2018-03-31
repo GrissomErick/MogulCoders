@@ -65,5 +65,3 @@ Bamazon consists of three separate applications. Each of the three applications 
 3. Deb Bayo       (https://github.com/DABAYO)
 4. Anna Pena      (https://github.com/apena21)
 5. Kamal Kishore  (https://github.com/kkishore219)
-
-
