@@ -16,7 +16,7 @@ The Bamazon customer version of the program displays the terminal storefront and
 3. Redefining the repo, photoshop work was done again, redesigning of web page and fillable forms. - (need reasoning language???)
 4. Filtering out the APIs (will write more about this)
 
-## Project Folder Structure
+## Folder Structure
 Write some text about folder structure:
 ```
 |-root
