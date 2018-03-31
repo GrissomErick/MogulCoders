@@ -1,5 +1,3 @@
-[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
-
 <p align="center">
 <img src="https://github.com/GrissomErick/MogulCoders/blob/master/public/img/mogulcoders_banner.png?raw=true" alt="Project logo"></img>
 <p></p>
@@ -65,3 +63,5 @@ Bamazon consists of three separate applications. Each of the three applications 
 3. Deb Bayo       (https://github.com/DABAYO)
 4. Anna Pena      (https://github.com/apena21)
 5. Kamal Kishore  (https://github.com/kkishore219)
+
+[Click here](https://github.com/GrissomErick/MogulCoders/blob/master/appdocs/ProjectNeed.md) to read Project Requirements
