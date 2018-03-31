@@ -42,31 +42,3 @@ npm install
 node server.js
 ```
 
-## Technology used
-- node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
-- heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
-- body-parser NPM Package - [https://www.npmjs.com/package/body-parser](https://www.npmjs.com/package/body-parser)
-- express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
-- path NPM Package - [https://www.npmjs.com/package/path](https://www.npmjs.com/package/path)
-
-<!--
-- node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
-- mysql NPM Package - [https://www.npmjs.com/package/mysql](https://www.npmjs.com/package/mysql)
-- inquirer NPM Package - [https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)
-- cli-table NPM Package - [https://www.npmjs.com/package/cli-table](https://www.npmjs.com/package/cli-table)
-- heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
-- express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
-- path - [https://www.npmjs.com/package/path](https://www.npmjs.com/package/path)
-- body-parser NPM Package - [https://www.npmjs.com/package/body-parser](https://www.npmjs.com/package/body-parser)
--->
-
-## Built With
-
-* VS Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
-* Git Tools - [https://git-scm.com/download](https://git-scm.com/download)
-* Live Markdown Editor - [https://jbt.github.io/markdown-editor/](https://jbt.github.io/markdown-editor/)
-
-## Author
-
-* **Erick Grissom** - *JS/Node.js/Express Server* - [Erick Grissom MogulCoders Repo](https://github.com/GrissomErick/MogulCoders)
-
