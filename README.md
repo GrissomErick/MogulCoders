@@ -23,7 +23,7 @@ The link below will give you direct access to CritterSitter web application usin
 ## Local Environment Setup
 To use CritterSitter web application application from your local environment, you must accomplish the following steps below:
 
-**Step 1 - Clone my repo using the command line below.**
+**Step 1 - Clone this repo using the command line below.**
 ```
 git clone https://github.com/GrissomErick/MogulCoders.git
 ```
