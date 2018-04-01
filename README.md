@@ -81,7 +81,7 @@ cd MogulCoders
 ```
 npm install
 ```
-**Step 4 - Create blank MySQL database table using sql file liste below**
+**Step 4 - Create blank MySQL database table using sql file. (Note: the path and name of the sql file)**
 ```
 /app/db/createTables.sql
 ```
