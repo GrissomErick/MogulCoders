@@ -81,11 +81,16 @@ cd MogulCoders
 ```
 npm install
 ```
-**Step 4 - Start the application server using the command line below**
+**Step 4 - Import query to create blank MySQL database table listed below**
+```
+createBamazonTables.sql
+```
+
+**Step 5 - Start the application server using the command line below**
 ```
 node server.js
 ```
 ## License
 
-This project is licensed under the MIT License.
+Portions of this project is licensed under the MIT License.
 
