@@ -81,9 +81,9 @@ cd MogulCoders
 ```
 npm install
 ```
-**Step 4 - Import query to create blank MySQL database table listed below**
+**Step 4 - Create blank MySQL database table using sql file liste below**
 ```
-createBamazonTables.sql
+/app/db/createTables.sql
 ```
 
 **Step 5 - Start the application server using the command line below**
