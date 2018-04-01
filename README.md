@@ -11,7 +11,8 @@ UNC Coding Boot Camp - CritterSitter - Project #02 (Node, Express, Handlebars)
  <p></p>
  <p></p>
  
-Why CritterSitter?:
+** Why CritterSitter?:
+
 Not all pet sitters are created equal, nor are they all professional.  In finding a pet sitter, it is important to make sure you have chosen the right person to care for your beloved animal.
 
 Using a professional pet sitter reaps benefits for both pets and pet owners. Once you experience one of our listed pet care professionals, you'll never worry about being away from your pet again.
