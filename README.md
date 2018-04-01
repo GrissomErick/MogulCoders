@@ -87,7 +87,5 @@ node server.js
 ```
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-A short snippet describing the license, [Apache](http://opensource.org/licenses/Apache-2.0), etc.)
+This project is licensed under the MIT License
 
