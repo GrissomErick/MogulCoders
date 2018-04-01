@@ -89,7 +89,7 @@ npm install
 ```
 1. open "/app/config/config.json" in your script editor
 2. edit line 5 with your database password information
-(Note: pay close attention to line 5, as a string for your MySQL database password)
+(Note: pay close attention to enter line 5 as a string for your MySQL database password)
 ```
 **Step 6 - Start the application server using the command line below**
 ```
