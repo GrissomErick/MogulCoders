@@ -53,7 +53,7 @@ Our sitters can perfrom services like:
 * Opening/closing blinds
 * Carrying trash in/out
 
-Try our service today to schedule pet sitting services by registering with our website.
+Try our service today. Schedule pet sitting services by registering with our website to perform an automatic search.
 
 ## Application running on Heroku
 The link below will give you direct access to CritterSitter web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
