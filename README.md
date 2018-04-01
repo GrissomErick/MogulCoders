@@ -85,7 +85,7 @@ npm install
 ```
 /app/db/createTables.sql
 ```
-**Step 5 - Edit the javascript MySQL information.**
+**Step 5 - Edit the javascript MySQL information. (Next time .env file)**
 ```
 1. open "/app/config/config.json" in your script editor
 2. edit line 5 with your database password information
