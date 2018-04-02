@@ -107,6 +107,30 @@
                           <input type="text" name="address" required placeholder="Address" class="form-control" id="address" />
                         </div>
                       </div>
+                      <div class="form-group" style="margin-bottom:5px;">
+                        <label for="from-email" style="margin-bottom:2px;">Lateral Coordinate</label>
+                        <span class="required-input">*</span>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="fa fa-map-marker"></i>
+                            </span>
+                          </div>
+                          <input type="text" name="lat" id="lat" readonly required class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="form-group" style="margin-bottom:5px;">
+                        <label for="from-email" style="margin-bottom:2px;">Longitude Coordinate</label>
+                        <span class="required-input">*</span>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="fa fa-map-marker"></i>
+                            </span>
+                          </div>
+                          <input type="text" name="lng" id="lng" readonly required class="form-control"/>
+                        </div>
+                      </div>
                       <div class="form-group">
                         <label for="from-calltime" style="  margin-bottom:2px;">Owner or Sitter*</label>
                         <div class="input-group">
@@ -168,6 +192,8 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQLyMdy3_sNUDwMhTNBF0AM8iR_cIng4c&libraries=places&callback=initAC"
+        async defer></script>
     <script src="js/signUp.js"></script>
 </body>
 

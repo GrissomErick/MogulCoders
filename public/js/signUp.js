@@ -5,3 +5,14 @@ $("#isSitter").on("change", function(e){
         $("#animalTypes").hide();
     }
 });
+
+function initAC(){
+    var input = document.getElementById('address');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+
+    autocomplete.addListener('place_changed', function() {
+        var place = autocomplete.getPlace();
+        $("#lat").val( place.geometry.location.lat() );
+        $("#lng").val( place.geometry.location.lng() );
+        });
+}

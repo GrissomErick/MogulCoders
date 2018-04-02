@@ -6,7 +6,7 @@ var exports = module.exports = {}
 exports.getAllSitters = function(req, res) {
     user.findAll( 
         {
-            attributes: ['id','firstname','lastname','handlesDogs','handlesCats','handlesBirds','handlesReptiles','email'],
+            attributes: ['id','firstname','lastname','handlesDogs','handlesCats','handlesBirds','handlesReptiles','email', 'lat', 'lng'],
             where: { isSitter: true } 
         })
         .then(function(results){

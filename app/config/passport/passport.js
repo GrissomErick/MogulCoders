@@ -62,6 +62,9 @@
           handlesCats: req.body.handlesCats,
           handlesBirds: req.body.handlesBirds,
           handlesReptiles: req.body.handlesReptiles,
+          address: req.body.address,
+          lat: req.body.lat,
+          lng: req.body.lng,
           isSitter: req.body.isSitter
         };
 

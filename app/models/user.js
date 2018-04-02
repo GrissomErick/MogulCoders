@@ -15,6 +15,18 @@ module.exports = function(sequelize, Sequelize) {
 			type: Sequelize.STRING,
 			notEmpty: true
 		},
+		address: {
+			type: Sequelize.STRING,
+			notEmpty: true
+		},
+		lat: {
+			type: Sequelize.STRING,
+			notEmpty: true
+		},
+		lng: {
+			type: Sequelize.STRING,
+			notEmpty: true
+		},
 		handlesDogs : {
 			type: Sequelize.BOOLEAN,
 			defaultValue: false,
