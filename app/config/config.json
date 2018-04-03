@@ -4,7 +4,7 @@
     "username": "w246sqvi12vtrf4k",
     "password": "c9fc6nkn3dw6ycjb",
     "database": "ljiqntyyx1nukw9x",
-    "host": "tyduzbv3ggpf15sx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
