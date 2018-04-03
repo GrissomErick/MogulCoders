@@ -51,7 +51,7 @@ models.sequelize.sync().then(function () {
     console.log('CritterSitter user database is connected!')
 
 }).catch(function (err) {
-    console.log(err, "Something went wrong with the Database Update!")
+    console.log(err, "Something went wrong with the CritterSitter Database Update!")
 });
 
 app.listen(5000, function (err) {
