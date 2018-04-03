@@ -20,6 +20,7 @@ app.use(session(
 })); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
+// app.use(express.static(path.join(__dirname, '/public')));
 app.use(express.static("public"));
 
 //For Handlebars
