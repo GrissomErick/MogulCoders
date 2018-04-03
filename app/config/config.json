@@ -1,10 +1,10 @@
 {
   "development": {
 
-    "username": "root",
-    "password": "1234",
-    "database": "critter_users",
-    "host": "127.0.0.1",
+    "username": "w246sqvi12vtrf4k",
+    "password": "c9fc6nkn3dw6ycjb",
+    "database": "ljiqntyyx1nukw9x",
+    "host": "tyduzbv3ggpf15sx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
